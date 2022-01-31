@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* header{
+    position: fixed;
+} */
+.header-full{
+     
+    padding: 2rem 7rem;
+   
+    background-color: #212529;
+    
+}
+.header-full .logo{
+    float: left;
+    
+     
+}
+.header-full .logo a{
+  color: #ffc800;
+  font-size: 25px;
+  
+}
+.header-full .nav-bar{
+    float: right;
+}
+.header-full .nav-bar a{
+    color: #fff;
+    margin-left: 25px;
+    font-size: 18px;
+}
+.slider{
+    background-image:url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    padding: 13rem;
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+    color: white;
+}
+.slider h2{
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+.slider h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom:60px;
+}
+.slider a {
+    background-color:#ffc800;
+    padding:20px 40px;
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+}
+#services{
+    padding: 7rem 0;
+    text-align: center;
+ 
+   
+}
+#services h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+#services p{
+    font-size: 15px;
+    color: gray;
+    
+}
+#services .box{
+    width: 30%;
+    margin-left: 25px;
+}
+.services-slider{
+    overflow: auto;
+}
+.services-slider .box{
+    float: left;
+}
+.services-slider .box img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+.services-slider h4{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+#services .box p{
+    line-height: 1.75rem;
+}
+.text{
+    margin-bottom: 60px;
+}
+#section-3{
+    background-color: #F8F9FA;
+    padding: 6rem;
+    overflow: auto;
+    text-align: center;
+}
+#porfolio .porfolio-text h2{
+    font-size:40px;
+    margin-bottom: 15px;
+}
+#porfolio .porfolio-text p{
+    color: gray;
+    font-style: italic;
+    margin-bottom: 45px;
+}
+#section-3  .porfolio-slider .box{
+    width: 31%;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#section-3  .porfolio-slider .box .top img{
+    width: 100%;
+}
+#section-3  .porfolio-slider .box .bottom{
+    padding: 2rem;
+ 
+}
+#section-3  .porfolio-slider .box .bottom p{
+    font-style: italic;
+    color: grey;
+    margin-top: 5px;
+}
+.porfolio-slider .box .bottom{
+    background-color: white;
+}
+#section-4 {
+    background-color: khaki;
+    padding: 6rem;
+    text-align: center;
+}
+#section-4 .team-text h2{
+font-size: 42px;
+color: #212529;
+}
+#section-4 .team-text p{
+    font-style: italic;
+    color: #6b6a6a;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+#section-4 .team {
+    overflow: auto;
+}
+#section-4 img{
+    width: 60%;
+    height:60%;
+    border-radius: 100%;
+    border: 8px solid rgb(219, 219, 219);
+}
+#section-4 .team .box{
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+}
+#section-4 .team .box p{
+    color: rgb(112, 111, 111);
+}
