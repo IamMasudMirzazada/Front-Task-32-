@@ -140,7 +140,7 @@ a{
     background-color: white;
 }
 #section-4 {
-    background-color: khaki;
+    background-color: F8F9FA;
     padding: 6rem;
     text-align: center;
 }
@@ -170,4 +170,26 @@ color: #212529;
 }
 #section-4 .team .box p{
     color: rgb(112, 111, 111);
+    margin-top: 15px;
+}
+#section-4 .team .box h2{
+    margin-top: 15px;
+}
+#section-4 .last-text{
+    margin-top: 40px;
+    color:#6c757d;
+
+}
+#section-5{
+    overflow: auto;
+    padding: 3rem;
+    background-color: #f9f9fa;
+}
+#section-5 .box{
+    width: 25%;
+    float: left;
+}
+#section-5 .box img{
+    height: 40px;
+    width: 100%;
 }
